@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.hezecom.baptistdec2020" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="7">
+<widget id="com.hezecom.baptistdec2020" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="8">
     <name>Daily Encounter 2020</name>
     <description>
         Daily Encounter 2020 for Baptist Convention.
@@ -36,6 +36,9 @@
     <plugin name="cordova-plugin-vibration" spec="~3.1.0" />
     <plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
     <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+	<config-file parent="NSLocationWhenInUseUsageDescription " platform="ios" target="*-Info.plist">
+       <string>To access users location during request</string>
+    </config-file>
     <icon src="icon.png" width="1024" height="1024" />
     <splash src="splash.png" />
     <platform name="android">
